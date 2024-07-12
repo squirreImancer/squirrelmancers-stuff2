@@ -1,0 +1,12 @@
+hey! im new ot github and accidentaly submitted this as an issue rather than a commit
+
+if keyboard_check(vk_alt)
+{
+
+    textboxup = true;
+    oTextbox.visible = 1;
+}
+This was the main code that I added.
+
+basicly, there was an object that i positoned above the npc, and then i made a collision event that checks for my debug key (in this case ALT) and displays the sprite.
+This did not take me an hour, but I had to fix a butt ton of bugs and movement errors
