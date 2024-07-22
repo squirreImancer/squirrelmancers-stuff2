@@ -1,0 +1,15 @@
+
+dir += rotSpd;
+
+var _targetX = xstart + lengthdir_x( radius, dir );
+var _targetY = ystart + lengthdir_y( radius, dir );
+
+xspd = _targetX - x;
+if !moveOnXAxis { xspd = 0; };
+
+//Move
+x += xspd;
+
+
+fixed bug that made game crash when you step on this one specific platform.
+i honesty have no idea what caused it, but i reworked the code. 
