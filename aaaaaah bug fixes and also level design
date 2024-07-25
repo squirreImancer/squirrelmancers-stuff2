@@ -1,0 +1,5 @@
+i fixed a bug that caused the character to not diplay the jumping sprite correctly, and began work on my second level involving doors and buttons
+the bug in question was fixed by literally one line of code that i misstyped, but it took me an embarrassingly long time to find the error. it dident show up in debugging because it was displaying a differnt sprite instead. 
+i should probably stop reusing code from other objects for this reason
+
+instead of assigning JumpSPR to the sprite SPRjump it was being assigned to SPRnpctext, because i just reused the code from the npc
